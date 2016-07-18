@@ -9,7 +9,7 @@
     "test": "NODE_ENV=production mocha './client/modules/**/*.spec.js' --compilers js:babel-core/register",
     "test:watch": "npm test -- --watch",
     "clean": "rimraf dist",
-    "start": "node devServer.js",
+    "start": "node server.js",
     "lint": "eslint client"
   },
   "repository": {
