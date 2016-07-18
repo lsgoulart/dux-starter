@@ -1,10 +1,7 @@
-var express = require('express');
-var router = express.Router();
+var posts = require('./posts');
 
-router.get('posts', function(req, res) {
-  res.json({
-    
-  });
-});
+var api = function(app){
+  posts(app);
+} 
 
-module.exports = router;
+module.exports = api;
