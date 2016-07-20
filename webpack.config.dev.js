@@ -3,7 +3,6 @@ var webpack           = require('webpack');
 var autoprefixer      = require('autoprefixer');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
-
 module.exports = {
   devtool: 'source-map',
   entry: [
